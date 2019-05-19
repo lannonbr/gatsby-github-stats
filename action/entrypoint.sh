@@ -1,5 +1,6 @@
 cd $GITHUB_WORKSPACE
 
+ls -lah /
 node /load-data.js > site/js/data.js
 
 git config user.name "GitHub Action Bot"
