@@ -21,10 +21,6 @@ function createGraph(elem, field, color) {
       columns: [["x", ...timesArr], [field, ...xArr]],
       colors: chartColors
     },
-    size: {
-      width: 1200,
-      height: 300
-    },
     axis: {
       x: {
         tick: {

@@ -31,3 +31,16 @@ section {
   padding: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
+.chart {
+  height: 320px;
+}
+
+@media (max-width: 900px) {
+  section {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
