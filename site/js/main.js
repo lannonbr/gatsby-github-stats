@@ -4,6 +4,9 @@ function createGraph(elem, field, color) {
   let xArr = [];
   let timesArr = [];
 
+  let container = document.getElementById(elem);
+  let graphElem = document.querySelector(`#${elem} .chart`);
+
   for (let point of points) {
     const { timestamp } = point;
     const fieldEntry = point[field];
@@ -11,11 +14,16 @@ function createGraph(elem, field, color) {
     xArr.push(fieldEntry);
   }
 
+  let current = document.createElement("p");
+  current.innerText = `Current Value: ${xArr[0]}`;
+
+  container.insertBefore(current, graphElem);
+
   let chartColors = {};
   chartColors[field] = color;
 
   const chart = c3.generate({
-    bindto: elem,
+    bindto: `#${elem} .chart`,
     data: {
       x: "x",
       columns: [["x", ...timesArr], [field, ...xArr]],
@@ -33,9 +41,9 @@ function createGraph(elem, field, color) {
   });
 }
 
-createGraph("#op_issue_chart", "openIssues", "#28A745");
-createGraph("#closed_issue_chart", "closedIssues", "#CB2431");
-createGraph("#op_pr_chart", "openPRs", "#28A745");
-createGraph("#merged_pr_chart", "mergedPRs", "#663399");
-createGraph("#close_pr_chart", "closedPRs", "#CB2431");
-createGraph("#stars", "stars", "#ffb61e");
+createGraph("op_issue_chart", "openIssues", "#28A745");
+createGraph("closed_issue_chart", "closedIssues", "#CB2431");
+createGraph("op_pr_chart", "openPRs", "#28A745");
+createGraph("merged_pr_chart", "mergedPRs", "#663399");
+createGraph("close_pr_chart", "closedPRs", "#CB2431");
+createGraph("stars", "stars", "#ffb61e");
