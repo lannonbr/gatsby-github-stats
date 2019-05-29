@@ -1,0 +1,12 @@
+{
+  "name": "github-poll",
+  "version": "1.0.0",
+  "description": "GitHub Action to poll GitHub stats and pass up to Firebase",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "firebase-admin": "^6.0.0",
+    "moment": "^2.22.2",
+    "node-fetch": "^2.2.0"
+  }
+}
