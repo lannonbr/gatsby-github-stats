@@ -4,7 +4,7 @@ workflow "Update GitHub Stats" {
 }
 
 action "Gatsby Stats Loader" {
-  uses = "./action"
+  uses = "./.github/actions/stats-loader"
   secrets = [
     "GITHUB_TOKEN",
     "type",
@@ -26,7 +26,7 @@ workflow "Upload GitHub Stats" {
 }
 
 action "Gatsby Stats Poller" {
-  uses = "./github-poll"
+  uses = "./.github/actions/github-poll"
   secrets = [
     "GITHUB_TOKEN",
     "type",
