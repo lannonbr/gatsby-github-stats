@@ -32,8 +32,9 @@ function createGraph(elem, field, color) {
     axis: {
       x: {
         tick: {
+          rotate: 45,
           format: function(d) {
-            return moment.unix(d).format("llll");
+            return moment.unix(d).format("ddd, MMM Do, HH:mm");
           }
         }
       }
