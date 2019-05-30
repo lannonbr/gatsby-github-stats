@@ -16,6 +16,7 @@ header {
 h1 {
   margin: 0;
   font-weight: 500;
+  display: inline;
 }
 
 .container {
@@ -42,7 +43,19 @@ section:last-child {
 
 h2 {
   margin: 0;
-  margin-bottom: 20px;
+  display: inline;
+}
+
+header,
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading p {
+  font-size: 20px;
+  color: #888;
 }
 
 @media (max-width: 900px) {
