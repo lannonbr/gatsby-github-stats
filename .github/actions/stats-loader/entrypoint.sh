@@ -10,5 +10,5 @@ git config user.email "<>"
 
 git add src/data/data.json
 
-git commit -m "Updating data.js"
+git commit -m "Updating data.json"
 git push origin HEAD:master
