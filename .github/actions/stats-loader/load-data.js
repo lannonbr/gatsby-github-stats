@@ -9,7 +9,7 @@ db.collection("hourly-stats")
 
     data = data.map(dataPoint => dataPoint.data());
 
-    let str = `window.data = ${JSON.stringify(data)}`;
+    let str = JSON.stringify(data);
 
     console.log(str);
   });

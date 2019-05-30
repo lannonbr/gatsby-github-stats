@@ -3,12 +3,12 @@
 cd $GITHUB_WORKSPACE
 
 ls -lah /
-node /load-data.js > site/js/data.js
+node /load-data.js > src/data/data.json
 
 git config user.name "GitHub Action Bot"
 git config user.email "<>"
 
-git add site/js/data.js
+git add src/data/data.json
 
 git commit -m "Updating data.js"
 git push origin HEAD:master
