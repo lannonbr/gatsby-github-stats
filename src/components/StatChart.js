@@ -31,6 +31,7 @@ const StatChart = ({ data, yKey, color }) => {
           dataKey="timestamp"
           tickFormatter={time => moment.unix(time).format("ll")}
           minTickGap={20}
+          padding={{ left: 10, right: 10 }}
         />
         <YAxis interval={0} domain={["dataMin - 10", "dataMax + 10"]} />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
