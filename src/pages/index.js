@@ -37,7 +37,7 @@ export default () => {
         <h1>Gatsby Stats</h1>
         <p>
           Last Updated:{" "}
-          {moment.unix(nodes[nodes.length - 1].timestamp).format("llll")}
+          {moment.unix(nodes[nodes.length - 1].timestamp).format("llll UTCZ")}
         </p>
       </header>
 
