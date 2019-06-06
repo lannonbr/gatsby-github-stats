@@ -13,9 +13,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.7.5",
+    "gatsby": "^2.8.5",
     "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-source-filesystem": "^2.0.37",
+    "gatsby-source-filesystem": "^2.0.38",
     "gatsby-transformer-json": "^2.1.11",
     "moment": "^2.24.0",
     "react": "^16.8.6",
