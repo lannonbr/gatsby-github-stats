@@ -29,11 +29,17 @@ const StatChart = ({ data, yKey, color }) => {
         />
         <XAxis
           dataKey="timestamp"
-          tickFormatter={time => moment.unix(time).format("ll")}
+          tickFormatter={time => moment.unix(time).format("YYYY-MM-DD")}
           minTickGap={20}
           padding={{ left: 10, right: 10 }}
         />
-        <YAxis interval={0} domain={["dataMin - 10", "dataMax + 10"]} />
+        <YAxis
+          interval={0}
+          domain={[
+            dataMin => Math.floor(dataMin / 50) * 50,
+            dataMax => Math.ceil(dataMax / 50) * 50,
+          ]}
+        />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
       </LineChart>
     </ResponsiveContainer>
