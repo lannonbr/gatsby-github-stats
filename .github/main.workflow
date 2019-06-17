@@ -1,6 +1,6 @@
 workflow "Update GitHub Stats" {
   resolves = ["Gatsby Stats Loader"]
-  on = "schedule(35 * * * *)"
+  on = "schedule(50 * * * *)"
 }
 
 action "Gatsby Stats Loader" {
