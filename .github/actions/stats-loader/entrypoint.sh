@@ -4,6 +4,8 @@ cd $GITHUB_WORKSPACE
 
 git pull origin master
 
+git branch
+
 node /load-data.js > src/data/data.json
 
 git config user.name "GitHub Action Bot"
