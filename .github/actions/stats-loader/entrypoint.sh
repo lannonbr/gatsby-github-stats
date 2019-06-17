@@ -2,7 +2,8 @@
 
 cd $GITHUB_WORKSPACE
 
-ls -lah /
+git pull origin master
+
 node /load-data.js > src/data/data.json
 
 git config user.name "GitHub Action Bot"
