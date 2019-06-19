@@ -41,6 +41,26 @@ section:last-child {
   text-align: center;
 }
 
+section#overview {
+  grid-column: 1 / span 2;
+}
+
+section#overview ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+section#overview ul li {
+  text-align: center;
+  font-size: 30px;
+}
+
+section#overview ul li p {
+  font-size: 16px;
+}
+
 h2 {
   margin: 0;
   display: inline;
