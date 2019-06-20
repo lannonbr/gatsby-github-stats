@@ -86,4 +86,10 @@ header,
   section {
     margin-bottom: 10px;
   }
+
+  section#overview ul {
+    display: grid;
+    justify-content: unset;
+    grid-template-columns: 1fr 1fr;
+  }
 }
