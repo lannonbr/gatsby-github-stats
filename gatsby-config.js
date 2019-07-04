@@ -1,20 +1,12 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+const path = require("path")
 
 module.exports = {
-  /* Your site config here */
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-theme-github-stats`,
       options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`,
+        dataPath: path.join(__dirname, `src`, `data`),
       },
     },
-    `gatsby-transformer-json`,
   ],
 }
