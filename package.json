@@ -1,36 +1,30 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-github-stats",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
+  "description": "A stats dashboard for the Gatsby GitHub repo",
+  "version": "0.2.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^2.8.5",
-    "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-source-filesystem": "^2.0.38",
-    "gatsby-transformer-json": "^2.1.11",
-    "moment": "^2.24.0",
+    "gatsby": "^2.13.3",
+    "gatsby-theme-github-stats": "^0.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
-    "recharts": "^1.6.2"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "prettier": "^1.17.1"
+    "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/lannonbr/gatsby-github-stats"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/lannonbr/gatsby-github-stats/issues"
   }
 }
