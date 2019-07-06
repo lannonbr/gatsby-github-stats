@@ -4440,10 +4440,10 @@ gatsby-telemetry@^1.1.2:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-theme-github-stats@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-github-stats/-/gatsby-theme-github-stats-0.2.0.tgz#227bb8fe59243fcc4f2c86c3af6b73366e702f01"
-  integrity sha512-L98r/7KNFG/swihyOK4Bj/L/FIHnWmOXzFvSaK8HqjyQ0IYEEAt1ips8KP5pOM9338IjzrlRgaol18tAP45ugA==
+gatsby-theme-github-stats@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-github-stats/-/gatsby-theme-github-stats-0.2.1.tgz#ab31804526bb717c435a23b89e9a3e49999c6048"
+  integrity sha512-blLh/9BsIcdSu1WwdMu5GB1jQglLvKSlveMi8BIqr9X9Z6IIQ3chqHzs+2AXbscDWbnZL97G9cqTNGQYfh027w==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@mdx-js/react" "^1.0.21"
@@ -4454,6 +4454,7 @@ gatsby-theme-github-stats@^0.2.0:
     gatsby-transformer-json "^2.2.0"
     moment "^2.24.0"
     react-helmet "^5.2.1"
+    react-intersection-observer "^8.23.0"
     recharts "^1.6.2"
     theme-ui "^0.2.6"
 
@@ -7901,6 +7902,14 @@ react-hot-loader@^4.8.4:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
     source-map "^0.7.3"
+
+react-intersection-observer@^8.23.0:
+  version "8.23.0"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.23.0.tgz#1533aaf39cc70300ff8ca37e6551d2d68a589cd0"
+  integrity sha512-kHXfxhGKvVDNkrvmh9CKCnAWvJBigyB7oSDzMXL54weFDwwI4WfTr58YauZ0RRPkGzoD/hYEuzfS1wipXn23fA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    invariant "^2.2.4"
 
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.8.3"
