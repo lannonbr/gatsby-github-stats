@@ -2,7 +2,7 @@
   "name": "gatsby-github-stats",
   "private": true,
   "description": "A stats dashboard for the Gatsby GitHub repo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -12,8 +12,8 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^2.13.3",
-    "gatsby-theme-github-stats": "^0.2.1",
+    "gatsby": "^2.13.15",
+    "gatsby-theme-github-stats": "^0.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
