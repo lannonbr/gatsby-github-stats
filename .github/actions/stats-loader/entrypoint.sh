@@ -2,16 +2,16 @@
 
 cd $GITHUB_WORKSPACE
 
-git pull origin master
-
-git branch
-
 node /load-data.js > src/data/data.json
 
 git config user.name "GitHub Action Bot"
 git config user.email "<>"
 
+git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+
+git checkout master
+
 git add src/data/data.json
 
 git commit -m "Updating data.json"
-git push origin HEAD:master
+git push -u origin master
