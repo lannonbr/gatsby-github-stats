@@ -1,6 +1,6 @@
 on:
-  schedules:
-  - cron: 45 * * * *
+  schedule:
+  - cron: 46 * * * *
 name: Upload GitHub Stats
 jobs:
   gatsbyStatsPoller:
