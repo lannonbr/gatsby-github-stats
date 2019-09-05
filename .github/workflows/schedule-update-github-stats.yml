@@ -17,7 +17,6 @@ jobs:
         uses: ./.github/actions/stats-loader
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REF: ${{ github.ref }}
           auth_provider_x509_cert_url: ${{ secrets.auth_provider_x509_cert_url }}
           auth_uri: ${{ secrets.auth_uri }}
           client_email: ${{ secrets.client_email }}
