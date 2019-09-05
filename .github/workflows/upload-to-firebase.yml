@@ -1,7 +1,7 @@
 on:
   schedule:
-  - cron: 46 * * * *
-name: Upload GitHub Stats
+  - cron: 45 * * * *
+name: Upload to Firebase
 jobs:
   gatsbyStatsPoller:
     name: Gatsby Stats Poller
