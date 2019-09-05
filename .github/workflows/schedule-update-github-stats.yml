@@ -1,6 +1,6 @@
-on:
-  schedule:
-    - cron: "50 * * * *"
+on: push
+# schedule:
+#   - cron: "50 * * * *"
 name: Update GitHub Stats
 jobs:
   gatsbyStatsLoader:
