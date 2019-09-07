@@ -1,5 +1,9 @@
 # Gatsby GitHub Stats
 
+![](https://github.com/lannonbr/gatsby-github-stats/workflows/Update%20Repo/badge.svg)
+![](https://github.com/lannonbr/gatsby-github-stats/workflows/Upload%20to%20Firebase/badge.svg)
+
+
 ![Screenshot](./Screenshot.png)
 
 A website that tracks the last two weeks of statistics about the [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) repo.
