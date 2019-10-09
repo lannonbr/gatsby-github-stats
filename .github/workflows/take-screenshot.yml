@@ -1,7 +1,7 @@
 name: Gatsby GitHub Stats Screenshot
 on:
   schedule:
-    - cron: "5 * * * *"
+    - cron: "10 * * * *"
 jobs:
   run_puppeteer:
     runs-on: ubuntu-latest
