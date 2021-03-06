@@ -1,4 +1,4 @@
-FROM node:10-stretch
+FROM node:14-stretch
 
 LABEL "com.github.actions.name"="Gatsby Stats Loader"
 LABEL "com.github.actions.description"="Download stats from Firestore to local file"
