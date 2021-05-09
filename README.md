@@ -6,6 +6,8 @@
 
 ![Screenshot](./Screenshot.png)
 
+Note: As of May 9, 2021 I am stopping the crawling for this dataset and will eventually take down the website. Feel free to fork this repo if you wish to continue.
+
 A website that tracks the last two weeks of statistics about the [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) repo.
 
 This is an unnofficial project and not maintained by the Gatsby Core Team.
