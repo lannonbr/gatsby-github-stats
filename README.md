@@ -1,3 +1,8 @@
+# NOTICE
+
+This site is considered deprecated and no longer collecting data on the gatsby github repo. See the following blogpost for info: [VSCode Issue Tracker Post Mortem](https://lannonbr.com/blog/vscode-issue-tracker-post-mortem/)
+
+
 # Gatsby GitHub Stats
 
 ![](https://github.com/lannonbr/gatsby-github-stats/workflows/Upload%20to%20Firebase/badge.svg)
